@@ -1,0 +1,42 @@
+Resultados del ping a múltiples hosts - dom 24 nov 2024 19:50:28 -03
+--------------------------------------------------------
+Haciendo ping a google.com...
+PING google.com (2800:3f0:4002:80e::200e) 56 data bytes
+64 bytes from 2800:3f0:4002:80e::200e: icmp_seq=1 ttl=119 time=10.1 ms
+64 bytes from 2800:3f0:4002:80e::200e: icmp_seq=2 ttl=119 time=12.5 ms
+64 bytes from 2800:3f0:4002:80e::200e: icmp_seq=3 ttl=119 time=10.3 ms
+
+--- google.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 10.112/10.997/12.541/1.095 ms
+--------------------------------------------------------
+Haciendo ping a 8.8.8.8...
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=119 time=12.0 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=119 time=13.6 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=119 time=14.1 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2005ms
+rtt min/avg/max/mdev = 12.019/13.242/14.142/0.896 ms
+--------------------------------------------------------
+Haciendo ping a 192.168.100.63...
+PING 192.168.100.63 (192.168.100.63) 56(84) bytes of data.
+64 bytes from 192.168.100.63: icmp_seq=1 ttl=64 time=0.548 ms
+64 bytes from 192.168.100.63: icmp_seq=2 ttl=64 time=0.523 ms
+64 bytes from 192.168.100.63: icmp_seq=3 ttl=64 time=0.365 ms
+
+--- 192.168.100.63 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2039ms
+rtt min/avg/max/mdev = 0.365/0.478/0.548/0.081 ms
+--------------------------------------------------------
+Haciendo ping a facebook.com...
+PING facebook.com (2a03:2880:f110:83:face:b00c:0:25de) 56 data bytes
+64 bytes from edge-star-mini6-shv-01-eze1.facebook.com (2a03:2880:f110:83:face:b00c:0:25de): icmp_seq=1 ttl=57 time=9.55 ms
+64 bytes from edge-star-mini6-shv-01-eze1.facebook.com (2a03:2880:f110:83:face:b00c:0:25de): icmp_seq=2 ttl=57 time=9.62 ms
+64 bytes from edge-star-mini6-shv-01-eze1.facebook.com (2a03:2880:f110:83:face:b00c:0:25de): icmp_seq=3 ttl=57 time=12.8 ms
+
+--- facebook.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 9.548/10.658/12.808/1.520 ms
+--------------------------------------------------------

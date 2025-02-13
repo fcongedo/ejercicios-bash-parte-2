@@ -1,0 +1,2 @@
+Este es un mensaje de warning.
+Otro warning ocurrió aquí.
